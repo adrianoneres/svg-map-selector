@@ -81,7 +81,6 @@ function loadMap() {
 }
 
 function printMap() {
-  console.log(selects);
   organizeSelects();
   loadMap();
 }
