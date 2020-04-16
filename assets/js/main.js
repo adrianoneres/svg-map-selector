@@ -53,6 +53,7 @@ function organizeSelects() {
     }
 
     if (hasAnyProperty(select)) {
+      select.fillColor = select.fillColor ? select.fillColor : fillSelected;
       selects.push(select);
     }
   }
@@ -62,7 +63,7 @@ function selectOnMap() {
   for (path of map.getElementsByTagName('path')) {
     var selectedPath = selects.find(select => select.states && select.states.includes(path.id));
 
-    path.style.fill = selectedPath ? selectedPath.fillColor : fillColor;
+    path.style.fill = selectedPath ? selectedPath.fillColor : fillColor || fillSelected;
     path.style.fillOpacity = selectedPath ? selectedPath.fillOpacity : fillOpacity || fillOpacity;
     path.style.stroke = selectedPath ? selectedPath.strokeColor : strokeColor || strokeColor;
     path.style.strokeOpacity = selectedPath ? selectedPath.strokeOpacity : strokeOpacity || strokeOpacity;
