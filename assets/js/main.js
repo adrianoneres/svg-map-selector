@@ -48,7 +48,7 @@ function organizeSelects() {
           select[key] = value;
         }
       } else {
-        selects.push({ states: [key] });
+        selects.push({ fillColor: fillSelected, states: [key] });
       }
     }
 
@@ -62,7 +62,7 @@ function selectOnMap() {
   for (path of map.getElementsByTagName('path')) {
     var selectedPath = selects.find(select => select.states && select.states.includes(path.id));
 
-    path.style.fill = selectedPath ? (selectedPath.fillColor || fillSelected ) : fillColor;
+    path.style.fill = selectedPath ? selectedPath.fillColor : fillColor;
     path.style.fillOpacity = selectedPath ? selectedPath.fillOpacity : fillOpacity || fillOpacity;
     path.style.stroke = selectedPath ? selectedPath.strokeColor : strokeColor || strokeColor;
     path.style.strokeOpacity = selectedPath ? selectedPath.strokeOpacity : strokeOpacity || strokeOpacity;
@@ -81,6 +81,7 @@ function loadMap() {
 }
 
 function printMap() {
+  console.log(selects);
   organizeSelects();
   loadMap();
 }
