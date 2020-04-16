@@ -20,7 +20,7 @@ This example is using a map from [Piauí](https://pt.wikipedia.org/wiki/Piauí),
 
 ## How to use
 
-It's all about your query params. You can search for a **[single state with default parameters](#single-state-with-default-parameters)** or for **[multiple states and personalized parameters](#multiple-states-and-personalized-parameters)**.
+It's all about your query parameters. You can search for a **[single state with default parameters](#single-state-with-default-parameters)** or for **[multiple states and personalized parameters](#multiple-states-and-personalized-parameters)**.
 
 ### Single state with default parameters
 
