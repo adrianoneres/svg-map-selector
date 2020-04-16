@@ -34,7 +34,7 @@ There are all the parameters you can use to personalize your queries. All of the
 
 - All of them will only work if you also inform the `states` parameter. 
 - You must separate them with a semi-colon. 
-- You can also append multiple `select` options. 
+- You can also append multiple `select` parameters. 
 
 | Parameter       | Description                                                  | Default value | How to use                                                   |
 | --------------- | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ |
@@ -45,7 +45,7 @@ There are all the parameters you can use to personalize your queries. All of the
 | `strokeOpacity` | Opacity of the stroke on the states informed on `states` parameter | `1`           | Number from `0` to `1`. e.g.: `strokeOpacity=0.5`            |
 | `strokeWidth`   | Width of the stroke on the states informed on `states` parameter | `100`         | Number. e.g.: `strokeWidth=250`                              |
 
-There is an example of how to use multiple options on a single query:
+There is an example of how to use multiple parameters on a single query:
 
 - [https://adrianoneres.me/svg-map-selector/?select=states=teresina,varzea-grande;fillColor=b066ff;strokeWidth=300&select=baixa-grande-do-ribeiro&select=states=cristalandia-do-piaui;fillColor=ffc600;fillOpacity=0.6&select=states=dom-inocencio,canto-do-buriti;fillColor=00ff00;strokeWidth=600;strokeColor=ff00ff](https://adrianoneres.me/svg-map-selector/?select=states=teresina,varzea-grande;fillColor=b066ff;strokeWidth=300&select=baixa-grande-do-ribeiro&select=states=cristalandia-do-piaui;fillColor=ffc600;fillOpacity=0.6&select=states=dom-inocencio,canto-do-buriti;fillColor=00ff00;strokeWidth=600;strokeColor=ff00ff)
 
