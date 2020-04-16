@@ -4,7 +4,7 @@ A small JavaScript application to select a location on a given map. 🗺
 
 ## Overview
 
-This example is using a map from [Piauí]([https://pt.wikipedia.org/wiki/Piau%C3%AD](https://pt.wikipedia.org/wiki/Piauí)), a Brazilian municipality; however, It can be personalized overriding the `assets/img/map.svg` with your own map, with proper `id` values.
+This example is using a map from [Piauí](https://pt.wikipedia.org/wiki/Piauí), a Brazilian municipality; however, It can be personalized overriding the `assets/img/map.svg` with your own map, with proper `id` values.
 
 - **[Demo](#demo)**
 - **[How to use](#how-to-use)**
