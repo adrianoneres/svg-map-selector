@@ -6,25 +6,25 @@ A small JavaScript application to select a location on a given map. 🗺
 
 This example is using a map from [Piauí]([https://pt.wikipedia.org/wiki/Piau%C3%AD](https://pt.wikipedia.org/wiki/Piauí), a brazilian state; however, It can be personalized overriding the `assets/img/map.svg` with your own map, with proper `id` values.
 
-- **[Demo](user-content-demo)**
-- **[How to use](user-content-how-to-use)**
-  - **[Single state with default parameters](user-content-single-state-with-default-parameters)**
-  - **[Multiple states and personalized parameters](user-content-multiple-states-and-personalized-parameters)**
-- **[Available states](#user-content-available-states)**
+- **[Demo](#demo)**
+- **[How to use](#how-to-use)**
+  - **[Single state with default parameters](#single-state-with-default-parameters)**
+  - **[Multiple states and personalized parameters](#multiple-states-and-personalized-parameters)**
+- **[Available states](#available-states)**
 
 ## Demo
 
-- [https://adrianoneres.me/svg-map-selector/?select=teresina](https://adrianoneres.me/svg-map-selector/?select=teresina)
+- [https://adrianoneres.me/svg-map-selector?select=teresina](https://adrianoneres.me/svg-map-selector?select=teresina)
 
 ![](demo.png)
 
 ## How to use
 
-It's all about your query params. You can search for a **[single state with default parameters](user-content-single-state-with-default-parameters)** or for **[multiple states and personalized parameters](user-content-multiple-states-and-personalized-parameters)**.
+It's all about your query params. You can search for a **[single state with default parameters](#single-state-with-default-parameters)** or for **[multiple states and personalized parameters](#multiple-states-and-personalized-parameters)**.
 
 ### Single state with default parameters
 
-If you want to simply select one state with all default values, you can just use the name of the state as a value for the parameter `select`. Head over to [available states section](#user-content-available-states) to see all available states.
+If you want to simply select one state with all default values, you can just use the name of the state as a value for the parameter `select`. Head over to [available states section](#available-states) to see all available states.
 
 - [https://adrianoneres.me/svg-map-selector/?select=teresina](https://adrianoneres.me/svg-map-selector/?select=teresina)
 
