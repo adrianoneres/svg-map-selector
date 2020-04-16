@@ -40,7 +40,7 @@ There are all the parameters you can use to personalize your queries. All of the
 | --------------- | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ |
 | `fillColor`     | Background color on the states informed on `states` parameter | `dadada`      | The hex color without `#`. e.g.: `fillColor=00ff00`          |
 | `fillOpacity`   | Opacity of the background on the states informed on `states` parameter | `1`           | Number from `0` to `1`. e.g.: `fillOpacity=0.7`              |
-| `states`        | Name of the states to select                                 |               | Names of the states. If more than one, they can be separed by comma. e.g.: `states=teresina,varzea-grande` |
+| `states`        | Name of the states to select                                 |               | Names of the states. If more than one, they can be separated by commas. e.g.: `states=teresina,varzea-grande` |
 | `strokeColor`   | Color of the stroke on the states informed on `states` parameter | `333333`      | The hex color without `#`. e.g.: `strokeColor=0000ff`        |
 | `strokeOpacity` | Opacity of the stroke on the states informed on `states` parameter | `1`           | Number from `0` to `1`. e.g.: `strokeOpacity=0.5`            |
 | `strokeWidth`   | Width of the stroke on the states informed on `states` parameter | `100`         | Number. e.g.: `strokeWidth=250`                              |
