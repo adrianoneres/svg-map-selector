@@ -30,10 +30,11 @@ If you want to simply select one state with all default values, you can just use
 
 ### Multiple states and personalized parameters
 
-There are all the parameters you can use to personalize your queries. All of them can be informed as complements for you `select`parameter. If you are using **one or more personalized parameter** or **more than one state** you **must** inform the parameter's label specifically.
+Here is a list of parameters that can be used as complements for your `select` parameter. 
 
+- If you are using **one or more personalized parameter** or **more than one state** you **must** inform the parameter's label specifically.
 - All of them will only work if you also inform the `states` parameter. 
-- You must separate them with a semi-colon. 
+- You **must** separate them with a **semi-colon**. 
 - You can also append multiple `select` parameters. 
 
 | Parameter       | Description                                                  | Default value | How to use                                                   |
