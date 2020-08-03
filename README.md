@@ -161,6 +161,7 @@ There is an example of how to use multiple parameters on a single query:
 - jose-de-freitas
 - juazeiro-do-piaui
 - julio-borges
+- jurema
 - lagoa-alegre
 - lagoa-de-sao-francisco
 - lagoa-do-barro-do-piaui
